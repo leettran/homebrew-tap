@@ -1,4 +1,4 @@
-#!/usr/bin/python2.7
+#!/usr/bin/env python
 
 import DictionaryServices
 import sys
@@ -10,6 +10,6 @@ if len(sys.argv) > 1:
     s_dict = None
     s_range = DictionaryServices.DCSGetTermRangeInString(s_dict, s, 0)
     s_definition = DictionaryServices.DCSCopyTextDefinition(s_dict, s, s_range)
-    print 'Definitions of <%s>\n%s' % (s, s_definition)
+    print('Definitions of <%s>\n%s' % (s, s_definition))
 else:
-    print 'Usage: %s <words>' % sys.argv[0]
+    print('Usage: %s <words>' % sys.argv[0])

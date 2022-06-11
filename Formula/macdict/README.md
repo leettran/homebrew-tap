@@ -1,7 +1,7 @@
-macdict
-=======
+# macdict
+============
 
-A simple tool for debugging your dictionaries on MacOS?
+A simple tool for debugging your dictionaries on MacOS
 
 Installation
 ------------
