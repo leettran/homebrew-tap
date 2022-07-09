@@ -1,9 +1,10 @@
-require 'formula'
-
 # Note: The reason for providing our own gfortran is that upstream
 #       homebrew merged gfortran with gcc, gcc has causes issues with
 #       the default c/c++ compiler and is thus keg-only. If this
 #       situation ever changes, we can remove gfortran from our tap.
+
+require 'formula'
+
 class Gfortran < Formula
   homepage 'http://gcc.gnu.org/wiki/GFortran'
   url 'http://ftpmirror.gnu.org/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2'
