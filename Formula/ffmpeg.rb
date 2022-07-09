@@ -21,11 +21,6 @@ class Ffmpeg < Formula
   end
 
   def install
-    system "unzip" "ffmpeg-5.0.1.zip"
-    system "unzip" "ffprobe-5.0.1.zip"
-    system "unzip" "ffplay-5.0.1.zip"
-    system "unzip" "ffserver-5.0.1.zip"
-
     bin.install "ffmpeg", "ffprobe", "ffplay", "ffserver"
   end
 
