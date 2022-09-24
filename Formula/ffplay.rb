@@ -1,12 +1,12 @@
-class Ffmpeg < Formula
+class Ffplay < Formula
   desc "Play, record, convert, and stream audio and video"
   homepage "https://asiansfly.io/"
-  url "https://evermeet.cx/ffmpeg/ffmpeg-5.0.1.zip"
-  sha256 "6ba850f5d7a8ff1c33c7df99a1ec37687bf33b7b7c8135918ce994fc82f9c46c"
+  url "https://evermeet.cx/ffmpeg/ffplay-5.0.1.zip"
+  sha256 "d172e6ad38eccb730d3a818698ff85a8bf3b13e2e3ff680af8fda898ff7b1fe0"
   license "AFL-3"
 
   def install
-    bin.install "ffmpeg"
+    bin.install "ffplay"
   end
 
   test do

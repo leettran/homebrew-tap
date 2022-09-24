@@ -1,12 +1,12 @@
-class Ffmpeg < Formula
+class Ffserver < Formula
   desc "Play, record, convert, and stream audio and video"
   homepage "https://asiansfly.io/"
-  url "https://evermeet.cx/ffmpeg/ffmpeg-5.0.1.zip"
-  sha256 "6ba850f5d7a8ff1c33c7df99a1ec37687bf33b7b7c8135918ce994fc82f9c46c"
+  url "https://evermeet.cx/ffmpeg/ffserver-3.4.2.zip"
+  sha256 "52f2e7045a84dfd34af08319459cdfd17e682b9909cfe9f2178414c1cbc02a12"
   license "AFL-3"
 
   def install
-    bin.install "ffmpeg"
+    bin.install "ffserver"
   end
 
   test do

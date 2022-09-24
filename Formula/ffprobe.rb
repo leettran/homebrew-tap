@@ -1,12 +1,13 @@
-class Ffmpeg < Formula
+class Ffprobe < Formula
   desc "Play, record, convert, and stream audio and video"
   homepage "https://asiansfly.io/"
-  url "https://evermeet.cx/ffmpeg/ffmpeg-5.0.1.zip"
-  sha256 "6ba850f5d7a8ff1c33c7df99a1ec37687bf33b7b7c8135918ce994fc82f9c46c"
+  url "https://evermeet.cx/ffmpeg/ffprobe-5.0.1.zip"
+  sha256 "e6ea82cc35c5e7a4de45d63d9f73c9d300df2e86e2722d75d5b3d0a639cb3e84"
   license "AFL-3"
 
+
   def install
-    bin.install "ffmpeg"
+    bin.install "ffprobe"
   end
 
   test do
