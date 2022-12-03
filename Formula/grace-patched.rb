@@ -35,6 +35,6 @@ class GracePatched < Formula
   test do
     system bin/"gracebat", share/"examples/test.dat"
     assert_equal "12/31/1999 23:59:59.999",
-                 shell_output("#{bin}/convcal -i iso -o us 1999-12-31T23:59:59.999").chomp
+    shell_output("#{bin}/convcal -i iso -o us 1999-12-31T23:59:59.999").chomp
   end
 end
